@@ -14,7 +14,7 @@ import org.apache.maven.plugins.annotations.Parameter;
 public class HelloMojo extends AbstractMojo {
 
 //    Mojo的参数，可以在使用插件的项目中配置
-    @Parameter(property = "word", defaultValue = "nothing")
+    @Parameter(property = "test.word.test", defaultValue = "nothing")
     private String word;
 
     public void execute() throws MojoExecutionException, MojoFailureException {

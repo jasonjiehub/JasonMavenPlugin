@@ -63,7 +63,7 @@
         </parameter>
       </parameters>
       <configuration>
-        <word implementation="java.lang.String" default-value="nothing">${word}</word>
+        <word implementation="java.lang.String" default-value="nothing">${test.word.test}</word>
       </configuration>
     </mojo>
   </mojos>
