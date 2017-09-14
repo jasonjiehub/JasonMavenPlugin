@@ -5,7 +5,11 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
+<<<<<<< HEAD
  * Unit test for simple HelloMojo.
+=======
+ * Unit test for simple App.
+>>>>>>> 5d5efa6ce1f6f6c01ad3741b7f3c74e77105facc
  */
 public class AppTest 
     extends TestCase

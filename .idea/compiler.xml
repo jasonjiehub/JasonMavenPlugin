@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="mymavenplugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mymavenplugin" target="1.5" />
+=======
+        <module name="mymavenplugintest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mymavenplugintest" target="1.5" />
+>>>>>>> 5d5efa6ce1f6f6c01ad3741b7f3c74e77105facc
     </bytecodeTargetLevel>
   </component>
 </project>
